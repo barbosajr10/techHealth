@@ -23,27 +23,27 @@ function imc() {
         } else if (valorimc < 25) {
 
             document.getElementById("resultadoimc").innerHTML = `<div class="alert alert-info" role="alert">
-            Seu IMC é ${valorimc} e você está Peso normal, Parabéns!!! </div>`;
+            Seu IMC é ${valorimc} e você está com Peso normal, Parabéns!!! </div>`;
           
         } else if (valorimc < 30) {
 
             document.getElementById("resultadoimc").innerHTML = `<div class="alert alert-dark" role="alert">
-            Seu IMC é ${valorimc} e você está Excesso de peso </div>`;
+            Seu IMC é ${valorimc} e você está com Excesso de peso </div>`;
            
         } else if (valorimc < 35) {
 
             document.getElementById("resultadoimc").innerHTML = `<div class="alert alert-warning" role="alert">
-            Seu IMC é ${valorimc} e você está Obesidade classe I </div>`;
+            Seu IMC é ${valorimc} e você está com Obesidade classe I </div>`;
           
         } else if (valorimc < 40) {
 
             document.getElementById("resultadoimc").innerHTML = `<div class="alert alert-danger" role="alert">
-            Seu IMC é ${valorimc} e você está Obesidade classe II </div>`;
+            Seu IMC é ${valorimc} e você está com Obesidade classe II </div>`;
           
         } else if (valorimc > 41) {
 
             document.getElementById("resultadoimc").innerHTML = `<div class="alert alert-danger" role="alert">
-           <b> Seu IMC é ${valorimc} e você está Obesidade classe III </b> </div>`;
+           <b> Seu IMC é ${valorimc} e você está com Obesidade classe III </b> </div>`;
           
         }
 
